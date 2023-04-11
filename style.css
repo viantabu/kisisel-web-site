@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  background-size: cover;
+}
+
+.box {
+  width: 450px;
+  background-color: black;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: sans-serif;
+  box-shadow: 0 0 5px blue, 0 0 25px blue, 0 0 100px blue, 0 0 150px blue;
+}
+.box img {
+  border-radius: 50rem;
+  box-shadow: 0 0 5px red, 0 0 25px red;
+  width: 150px;
+  height: 150px;
+  transition: 0.5sn;
+  cursor: pointer;
+}
+
+.box img:hover {
+  border-radius: 50rem;
+  box-shadow: 0 0 5px rgb(220, 116, 252), 0 0 25px rgb(220, 116, 252);
+  width: 155px;
+  height: 155px;
+}
+
+.box h1 {
+  font-size: 50px;
+  text-shadow: 0 0 5px blue, 0 0 25px blue;
+  text-align: center;
+}
+
+.box h5 {
+  font-size: 20px;
+}
+
+.home h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box p {
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box li {
+  display: inline-block;
+  margin: 15px;
+  list-style: none;
+  text-shadow: 0 0 5px red, 0 0 25px red;
+}
+.box li:hover {
+  display: inline-block;
+  margin: 15px;
+  list-style: none;
+  text-shadow: 0 0 5px blue, 0 0 25px blue;
+}
+
+.box li a {
+  color: white;
+  font-size: 50px;
+  transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+  color: #b9b9b9;
+}
